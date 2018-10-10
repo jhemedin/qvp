@@ -1,0 +1,5 @@
+# Files to ignore for tracking.
+
+*.swp
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints
