@@ -1,0 +1,23 @@
+name: qvp_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6
+  - numpy
+  - numpy-base
+  - netCDF4
+  - matplotlib 
+  - pytest
+  - pytest-cov
+  - basemap
+  - basemap-data-hires
+  - jupyter
+  - notebook
+  - dask
+  - dask-jobqueue
+  - pip:
+    - xarray
+    - scipy
+    - scikit-fuzzy
+    - cartopy
